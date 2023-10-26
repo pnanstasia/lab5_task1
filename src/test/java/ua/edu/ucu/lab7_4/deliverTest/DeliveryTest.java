@@ -5,8 +5,8 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import ua.edu.ucu.lab7_4.deliverly.DHLDeliverlyStrategy;
-import ua.edu.ucu.lab7_4.deliverly.PostDeliveryStrategy;
+import ua.edu.ucu.lab.deliverly.DHLDeliverlyStrategy;
+import ua.edu.ucu.lab.deliverly.PostDeliveryStrategy;
 
 public class DeliveryTest {
     private PostDeliveryStrategy postDelivery;
@@ -25,7 +25,8 @@ public class DeliveryTest {
 
     @Test
     public void testDHLDelivery() {
-        assertEquals(DHLdelivery.deliver(null), "DHL deliver, thanks for your choise!");
+        assertEquals(DHLdelivery.deliver(null),
+         "DHL deliver, thanks for your choise!");
     }
 }
 

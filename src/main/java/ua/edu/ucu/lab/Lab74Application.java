@@ -1,4 +1,4 @@
-package ua.edu.ucu.lab74;
+package ua.edu.ucu.lab;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -9,6 +9,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class Lab74Application {
 
     public static void main(String[] args) {
-		SpringApplication.run(Lab74Application.class, args);
-	}
+        SpringApplication.run(Lab74Application.class, args);
+    }
 }

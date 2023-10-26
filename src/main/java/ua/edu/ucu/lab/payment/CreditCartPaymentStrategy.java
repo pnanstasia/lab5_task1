@@ -1,6 +1,6 @@
-package ua.edu.ucu.lab74.payment;
+package ua.edu.ucu.lab.payment;
 
-public class CreditCartPaymentStrategy implements Payment{
+public class CreditCartPaymentStrategy implements Payment {
 
     @Override
     public String pay(double price) {

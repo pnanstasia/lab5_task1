@@ -1,4 +1,4 @@
-package ua.edu.ucu.lab74.store;
+package ua.edu.ucu.lab.store;
 
 public abstract class Item {
         public abstract double getPrice();

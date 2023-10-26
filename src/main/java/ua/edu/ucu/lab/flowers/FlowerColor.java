@@ -1,4 +1,4 @@
-package ua.edu.ucu.lab74.flowers;
+package ua.edu.ucu.lab.flowers;
 import com.fasterxml.jackson.annotation.JsonValue;
 
 public enum FlowerColor {

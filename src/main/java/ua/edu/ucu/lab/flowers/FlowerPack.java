@@ -1,4 +1,4 @@
-package ua.edu.ucu.lab74.flowers;
+package ua.edu.ucu.lab.flowers;
 import lombok.Getter;
 
 @Getter
@@ -11,12 +11,12 @@ public class FlowerPack {
         this.quantity = quantity;
     }
 
-    public void setQuantity(int quantity) {
-        if (quantity < 1) {
+    public void setQuantity(int newquantity) {
+        if (newquantity < 1) {
             this.quantity = 0;
         }
         else {
-            this.quantity = quantity;
+            this.quantity = newquantity;
         }
     }
 

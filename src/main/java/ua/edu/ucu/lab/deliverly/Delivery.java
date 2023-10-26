@@ -1,7 +1,7 @@
-package ua.edu.ucu.lab74.deliverly;
+package ua.edu.ucu.lab.deliverly;
 import java.util.List;
 
-import ua.edu.ucu.lab74.store.Item;
+import ua.edu.ucu.lab.store.Item;
 
 public interface Delivery {
     String deliver(List<Item> items);

@@ -1,10 +1,10 @@
-package ua.edu.ucu.lab74.flowers;
+package ua.edu.ucu.lab.flowers;
 import java.util.ArrayList;
 import java.util.List;
 
 import lombok.Getter;
 import lombok.Setter;
-import ua.edu.ucu.lab74.store.Item;
+import ua.edu.ucu.lab.store.Item;
 
 @Getter @Setter
 public class FlowerBucket extends Item {
