@@ -1,14 +1,14 @@
-package ua.edu.ucu.lab7_4.paymentTest;
+package ua.edu.ucu.lab.paymentTest;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import org.junit.jupiter.api.Assertions;
 
 import java.util.Random;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import ua.edu.ucu.lab7_4.payment.CreditCartPaymentStrategy;
-import ua.edu.ucu.lab7_4.payment.PayPalPaymentStrategy;
+import ua.edu.ucu.lab.payment.CreditCartPaymentStrategy;
+import ua.edu.ucu.lab.payment.PayPalPaymentStrategy;
 
 public class PaymentTest {
     private static final Random RANDOM_GENERATOR = new Random();
@@ -25,12 +25,12 @@ public class PaymentTest {
     @Test
     public void testCreditCardPaymentStrategy() {
         double price = RANDOM_GENERATOR.nextInt(MAX_PRICE);
-        assertEquals(creditCardPayment.pay(price), "You chose payment by card");
+        Assertions.assertEquals(creditCardPayment.pay(price), "You chose payment by card");
     }
 
     @Test
     public void testPayPalPaymentStrategy() {
         double price = RANDOM_GENERATOR.nextInt(MAX_PRICE);
-        assertEquals(PayPalPayment.pay(price), "You choose Pay Pal payment");
+        Assertions.assertEquals(PayPalPayment.pay(price), "You choose Pay Pal payment");
     }
 }

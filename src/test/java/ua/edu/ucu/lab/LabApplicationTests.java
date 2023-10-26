@@ -1,10 +1,10 @@
-package ua.edu.ucu.lab7_4;
+package ua.edu.ucu.lab;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class Lab74ApplicationTests {
+class LabApplicationTests {
 
 	@Test
 	void contextLoads() {

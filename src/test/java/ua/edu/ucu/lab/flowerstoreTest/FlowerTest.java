@@ -1,10 +1,10 @@
-package ua.edu.ucu.lab7_4.flowerstoreTest;
+package ua.edu.ucu.lab.flowerstoreTest;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import ua.edu.ucu.lab7_4.flowers.Flower;
-import ua.edu.ucu.lab7_4.flowers.FlowerColor;
+import ua.edu.ucu.lab.flowers.Flower;
+import ua.edu.ucu.lab.flowers.FlowerColor;
 
 import java.util.Random;
 

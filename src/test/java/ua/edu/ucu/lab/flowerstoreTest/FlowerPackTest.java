@@ -1,4 +1,4 @@
-package ua.edu.ucu.lab7_4.flowerstoreTest;
+package ua.edu.ucu.lab.flowerstoreTest;
 
 import java.util.Random;
 
@@ -34,6 +34,7 @@ public class FlowerPackTest {
     public void testPrice() {
         int price = RANDOM_GENERATOR.nextInt(MAX_PRICE);
         flower.setPrice(price);
-        Assertions.assertEquals(price * flowerPack.getQuantity(), flowerPack.getPrice());
+        Assertions.assertEquals(price * flowerPack.getQuantity(),
+    flowerPack.getPrice());
     }
 }

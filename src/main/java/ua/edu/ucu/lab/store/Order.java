@@ -13,7 +13,7 @@ public class Order {
     private Payment payment;
     private LinkedList<Item> items;
 
-    public double calculateTotalPrice() {
+    public double calculateTotalPrice () {
         double total = 0;
         for (Item allitem:items) {
             total += allitem.getPrice();
@@ -21,7 +21,7 @@ public class Order {
         return total;
     }
 
-    public String processOrder() {
+    public String processOrder () {
         return "Order in process";
     }
 
@@ -30,8 +30,8 @@ public class Order {
     }
 
     public void removeItem (Item item) {
-        for (Item all_items:items) {
-            if (all_items == item) {
+        for (Item alitems:items) {
+            if (alitems == item) {
                 items.remove(item);
             }
         }
