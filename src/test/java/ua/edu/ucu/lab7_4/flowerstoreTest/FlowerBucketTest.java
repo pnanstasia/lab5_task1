@@ -1,4 +1,4 @@
-package flower.store;
+package ua.edu.ucu.lab7_4.flowerstoreTest;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -7,6 +7,10 @@ import java.util.Random;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+
+import ua.edu.ucu.lab7_4.flowers.Flower;
+import ua.edu.ucu.lab7_4.flowers.FlowerBucket;
+import ua.edu.ucu.lab7_4.flowers.FlowerPack;
 
 public class FlowerBucketTest {
     private static final Random RANDOM_GENERATOR = new Random();
