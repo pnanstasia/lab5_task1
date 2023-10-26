@@ -1,4 +1,4 @@
-package ua.edu.ucu.lab.deliverTest;
+package ua.edu.ucu.lab.delivertest;
 
 import org.junit.jupiter.api.Assertions;
 
@@ -20,13 +20,14 @@ public class DeliveryTest {
 
     @Test
     public void testPostDelivery() {
-        Assertions.assertEquals(postDelivery.deliver(null), "You selected post deliverly");
+        Assertions.assertEquals(postDelivery.deliver(null),
+        "You selected post deliverly");
     }
 
     @Test
     public void testDHLDelivery() {
         Assertions.assertEquals(dhldelivery.deliver(null),
-         "DHL deliver, thanks for your choise!");
+        "DHL deliver, thanks for your choise!");
     }
 }
 
