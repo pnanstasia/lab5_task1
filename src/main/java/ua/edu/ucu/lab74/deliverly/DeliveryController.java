@@ -1,14 +1,14 @@
-package ua.edu.ucu.lab7_4.payment;
+package ua.edu.ucu.lab74.deliverly;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("api/payment")
-public class PaymentController {
+@RequestMapping("api/delivery")
+public class DeliveryController {
     @GetMapping("/")
-	public String getPayment() {
-		return "Payment";
-	}
+    public String getDelively() {
+        return "Delivery";
+    }
 }

@@ -1,4 +1,4 @@
-package ua.edu.ucu.lab7_4.store;
+package ua.edu.ucu.lab74.store;
 
 import java.util.ArrayList;
 import java.util.List;

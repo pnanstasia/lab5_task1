@@ -1,7 +1,8 @@
-package ua.edu.ucu.lab7_4.deliverly;
+package ua.edu.ucu.lab74.deliverly;
 
 import java.util.List;
-import ua.edu.ucu.lab7_4.store.Item;
+
+import ua.edu.ucu.lab74.store.Item;
 
 public class DHLDeliverlyStrategy implements Delivery {
 

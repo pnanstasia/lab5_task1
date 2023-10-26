@@ -1,4 +1,4 @@
-package ua.edu.ucu.lab7_4.store;
+package ua.edu.ucu.lab74.store;
 
 public interface SearchFilter {
     boolean match(Item item);

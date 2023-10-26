@@ -1,11 +1,11 @@
-package ua.edu.ucu.lab7_4.store;
+package ua.edu.ucu.lab74.store;
 import java.util.LinkedList;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
-import ua.edu.ucu.lab7_4.deliverly.Delivery;
-import ua.edu.ucu.lab7_4.payment.Payment;
+import ua.edu.ucu.lab74.deliverly.Delivery;
+import ua.edu.ucu.lab74.payment.Payment;
 
 @Getter @Setter @AllArgsConstructor
 public class Order {

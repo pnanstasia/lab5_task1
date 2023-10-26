@@ -1,4 +1,4 @@
-package ua.edu.ucu.lab7_4.payment;
+package ua.edu.ucu.lab74.payment;
 
 public class CreditCartPaymentStrategy implements Payment{
 
